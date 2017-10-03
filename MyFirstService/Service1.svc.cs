@@ -29,5 +29,10 @@ namespace MyFirstService
             }
             return composite;
         }
+
+        public string FormatName(string Name)
+        {
+            return String.Format("Formatted Name: {0}", Name);
+        }
     }
 }

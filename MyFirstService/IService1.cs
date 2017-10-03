@@ -19,6 +19,10 @@ namespace MyFirstService
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        string FormatName(string Name);
+        
+
         // TODO: Add your service operations here
     }
 
